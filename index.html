@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mood Checker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌈 Mood Checker</h1>
+
+        <p>How are you feeling today?</p>
+
+        <div class="moods">
+
+            <button onclick="checkMood('happy')">
+                😊 Happy
+            </button>
+
+            <button onclick="checkMood('sad')">
+                😢 Sad
+            </button>
+
+            <button onclick="checkMood('angry')">
+                😡 Angry
+            </button>
+
+            <button onclick="checkMood('tired')">
+                😴 Tired
+            </button>
+
+            <button onclick="checkMood('excited')">
+                🤩 Excited
+            </button>
+
+        </div>
+
+        <div class="result">
+
+            <h2 id="moodResult">
+                Choose your mood
+            </h2>
+
+            <p id="message">
+                Your message will appear here.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
